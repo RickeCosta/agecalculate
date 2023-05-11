@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/f18234aee6.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+<body>
+  <main class="container">
+    <section class="formulario">
+      <form id="formulario">
+        <div class="dados">
+          <label for="dia">Dia</label>
+          <input type="number" id="dia" placeholder="DD">
+          <small></small>
+        </div>
+        <div class="dados">
+          <label for="mes">Mes</label>
+          <input type="number" id="mes" placeholder="MM">
+          <small></small>
+
+        </div>
+        <div class="dados">
+          <label for="ano">Ano</label>
+          <input type="number" id="ano" placeholder="YYYY">
+          <small></small>
+        </div>
+        <div class="arrow">
+          <button type="submit" id="btn" class="submit_btn"><img src="./design/icon-arrow.svg" alt=""></button>
+
+        </div>
+      </form>
+    </section>
+
+    <section class="datas">
+      
+      <div class="card-text">
+        <h1 class="year"><span id="yy">--</span>anos</h1>
+        <h1 class="month"><span id="mm">--</span>meses</h1>
+        <h1 class="days"><span id="dd">--</span>dias</h1>
+      </div>
+
+    </section>
+  </main>
+</body>
+</html>
+
+
